@@ -8,7 +8,7 @@ def send_to_website():
         result_text.config(text="Please enter something")
         return
 
-    url = "https://www.vinoland.net/manifest"  # Replace with your target URL
+    url = "https://www.vinoland.net/manifest"  
     params = {"input": user_input}
 
     try:
